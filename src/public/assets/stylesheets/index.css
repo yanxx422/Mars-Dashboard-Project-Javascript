@@ -1,0 +1,88 @@
+/* -------------------  MOBILE  --------------------- */
+
+
+
+header {
+  width:100%;
+  height:220px;
+  background:url(banner.jpg) no-repeat;
+  background-size:cover;
+  margin-bottom: 2rem;
+
+}
+.header_inner{
+  color:white;
+  max-width:1080px;
+  margin: 0 auto;
+  padding: 5.56em 12em 12.5em 0;
+  text-align:right;
+}
+h1{
+  color:white;
+  font-family: Sansita, serif;
+  letter-spacing: 0.03em;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rover_img{
+
+}
+.button {
+  display: inline-block;
+  padding: 0.4em 1em;
+  color: hsl(162, 87%, 21%);
+  border: 2px solid hsl(162, 87%, 21%);
+  border-radius: 0.2em;
+  font-size: 1rem;
+}
+img {
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+}
+.button:hover {
+  background-color: hsl(162, 88%, 30%);
+  color: white;
+}
+
+.rover-row{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.rover-grid_item__card{
+  background-color:var(--white);
+  border-rarius:0.3em;
+  padding:1.5625em;
+  width: 6in;
+  margin: 2em;
+  padding: 2em;
+  border: 1px solid;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0,0,0,0.75);
+  overflow: hidden;
+}
+
+
+footer {
+  /* footer styles */
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  /* use mobile */
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  /* use mobile */
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  /* use mobile */
+}
